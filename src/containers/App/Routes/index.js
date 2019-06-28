@@ -7,7 +7,6 @@ import Header from "../../../components/Header/index";
 // import _404 from "../../../components/_404";
 import { Route  } from 'react-router';
 import { BrowserRouter, Switch } from 'react-router-dom';
-import PropTypes from 'prop-types';
 
 
 
@@ -36,10 +35,5 @@ class App extends React.Component {
     }
 }
 
-App.propTypes = {
-    loggedIn: PropTypes.bool.isRequired,
-    user: PropTypes.object,
-    dispatch: PropTypes.func.isRequired
-};
 
 export default (App);

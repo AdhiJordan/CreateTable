@@ -5,9 +5,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
-import { createMuiTheme } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import { green } from '@material-ui/core/colors';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import FormControl from '@material-ui/core/FormControl';
@@ -15,11 +13,8 @@ import FormGroup from '@material-ui/core/FormGroup';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import validators from './../../../helpers/validators/index';
 import Dialog from '@material-ui/core/Dialog';
-import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
-import DialogTitle from '@material-ui/core/DialogTitle';
-
 
 const styles = theme => ({
 root: {
@@ -231,10 +226,10 @@ class Settings extends Component{
       <div>
        <Paper className={classes.root}>
       <form>
+      <h1>Settings Form</h1>
       <Grid container spacing={3}>
           <Grid item xs={6}>
             <TextField
-              id="outlined-name"
               label="Name"
               placeholder="Joe Chan"
               className={classes.textField}
@@ -246,7 +241,7 @@ class Settings extends Component{
                 </Grid>
                 <Grid item xs={6}>
                   <TextField
-              id="outlined-name"
+              
               label="Email"
               placeholder="joe@gmail.com"
               className={classes.textField}
@@ -261,7 +256,7 @@ class Settings extends Component{
              <Grid container spacing={3}>
                 <Grid item xs={6}>
                   <TextField
-              id="outlined-name"
+              
               label="Phone"
               placeholder="987654321"
               className={classes.textField}
@@ -273,7 +268,7 @@ class Settings extends Component{
                 </Grid>
             <Grid item xs={6}>
               <TextField
-              id="outlined-name"
+              
               label="Percentage"
               placeholder="100%"
               type="number"
@@ -290,7 +285,7 @@ class Settings extends Component{
             <Grid container spacing={3}>
                 <Grid item xs={6}>
                   <TextField
-              id="outlined-name"
+              
               label="Password"
               type="password"
               placeholder="Password here"
@@ -304,7 +299,7 @@ class Settings extends Component{
                 <Grid item xs={6}>
                   <TextField
                   type="password"
-              id="outlined-name"
+              
               label="Confirm Password"
               placeholder="Confirm Password"
               className={classes.textField}
@@ -320,7 +315,7 @@ class Settings extends Component{
             <Grid container spacing={3}>
                 <Grid item xs={6}>
                <div className="form-group row">
-                <label for="inputPassword" className="col-sm-2  col-form-label">Roles</label>
+                <label htmlFor="inputPassword" className="col-sm-2  col-form-label">Roles</label>
           <div className="col-sm-8 pl-2">
         
 
@@ -360,7 +355,7 @@ class Settings extends Component{
                 </Grid>
                 <Grid item xs={6}>
                 <div className="form-group row">
-        <label for="inputPassword" className="col-sm-2  col-form-label">Status</label>
+        <label htmlFor="inputPassword" className="col-sm-2  col-form-label">Status</label>
           <div className="col-sm-8 pl-2">
             <FormControl error={this.state.toggleRadio} component="fieldset" className={classes.formControl}>
              <RadioGroup
@@ -391,6 +386,7 @@ class Settings extends Component{
         </form>
       </Paper>
       <Paper  className={classes.root}>
+      <h1>Next Form</h1>
         hi
       </Paper>
       <Dialog

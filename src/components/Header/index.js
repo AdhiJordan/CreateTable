@@ -243,7 +243,7 @@ class Header extends React.Component {
                     </div>
                     <Divider />
                     <List>
-                        {this.state.menus.map((menu, index) => { return (<LeftNavigationCard menus={menu} key={index} /> ) })}
+                        {this.state.menus.map((menu, index) => { return (<LeftNavigationCard menus={menu} idValue={index} /> ) })}
                     </List>
                     <Divider />
                 </Drawer>
@@ -289,8 +289,7 @@ class Header extends React.Component {
 }
 
 Header.propTypes = {
-    classes: PropTypes.object.isRequired,
-    theme: PropTypes.object.isRequired,
+    classes: PropTypes.object.isRequired
 };
 
 export default (withStyles(styles)(Header));

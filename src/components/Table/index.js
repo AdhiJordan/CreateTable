@@ -7,7 +7,6 @@ import TableCell from '@material-ui/core/TableCell';
 import TableFooter from '@material-ui/core/TableFooter';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
 import TablePagination from '@material-ui/core/TablePagination';
 import TablePaginationActions from './../TablePagination/index';
 import { lighten } from '@material-ui/core/styles/colorManipulator';

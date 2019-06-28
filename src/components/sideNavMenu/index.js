@@ -25,7 +25,7 @@ class LeftNavigationCard extends React.Component {
 
     render() {
         return (
-            <div style={{paddingTop: "20px"}}>
+            <div style={{paddingTop: "20px"}} key={this.props.idValue}>
                 <div className="mainMenu">
                     <label className="mainHeading" onClick={this.selectedmenu.bind(this, this.props.menus.mainTitle)}>
                         {this.props.menus.mainTitle}
@@ -43,7 +43,7 @@ class LeftNavigationCard extends React.Component {
                         {this.props.menus.menus.map((menu, index) => {
                             if(this.state.menuSelected === this.props.menus.mainTitle){
                                 return (
-                                    <Link to={menu.navLink} >
+                                    <Link to={menu.navLink} key={index}>
                                         <List key={index}  style={{backgroundColor: "#F7F7F7", paddingTop: "20px"}}>
                                             <span><label className="subMenuText">{menu.title}</label></span>
                                         </List>
@@ -51,7 +51,7 @@ class LeftNavigationCard extends React.Component {
                                 ); 
                             }
                             return(
-                                <code></code>
+                                <code key={index}></code>
                             );
                             
                         })}
