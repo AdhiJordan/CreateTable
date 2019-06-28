@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="baseline-ondemand_video-24px" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <path id="Path_150" d="M0 0h30v30H0z" class="cls-1" data-name="Path 150"/>
+    <path id="Path_151" d="M26.62 3H3.562A2.639 2.639 0 0 0 1 5.727v16.364a2.648 2.648 0 0 0 2.562 2.727h6.4v2.727h10.253v-2.727h6.4a2.646 2.646 0 0 0 2.549-2.727l.013-16.364A2.648 2.648 0 0 0 26.62 3zm0 19.091H3.562V5.727H26.62zm-6.4-8.182l-8.967 5.455V8.455z" class="cls-2" data-name="Path 151" transform="translate(-.091 -.273)"/>
+</svg>

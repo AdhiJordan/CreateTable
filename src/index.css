@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+
+.profileAvatar{
+    position: absolute;
+   right: 20px;
+}
+.subMenuText{
+  font-size: 16px;
+  color: grey;
+      padding-left: 60px;
+    padding-bottom: 20px;
+        font-family: sans-serif;
+}
+.mainMenu{
+  font-size: 18px;
+  padding-bottom: 22px;
+
+    padding-left: 32px;
+}
+.iconRight{
+    cursor: pointer;
+     position: absolute;
+    right: 5px;
+    padding-top: 4px;
+}
+.mainHeading:hover, .subMenuText:hover{
+  color: #00BFFF;
+  cursor: pointer;
+}
+
+.loginform{
+    position: relative;
+    top: 50%;
+    transform: translateY(40%);
+    margin: 0px auto;
+}
+.footerCls{
+  position: fixed;
+    bottom: 0px;
+    left: 0px;
+        width: 100%;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12)
+}
+
+
+@media only screen and (max-width: 576px) {
+  .loginform{
+    transform: translateY(20%);
+  }
+}
+
+
+
+

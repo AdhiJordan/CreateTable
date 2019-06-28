@@ -1,0 +1,86 @@
+[
+  {
+    "mainTitle": "SuperAdmin",
+    "pageUrl": "/admin",
+    "icon": "/assets/icons/right-arrow.svg",
+    "cIcon": "/assets/icons/angle-arrow-down.svg",
+    "mIcon": "/assets/icons/gdashboard.svg",
+    "menus": [
+      {
+        "title": "Dashboard",
+        "navLink": "/admin/dashboard",
+        "icon": "/assets/icons/right-arrow.svg",
+        "mIcon": "/assets/icons/right-arrowg.svg"
+      },
+      {
+        "title": "Administrators",
+        "navLink": "/admin/administrators",
+        "icon": "/assets/icons/right-arrow.svg",
+        "mIcon": "/assets/icons/right-arrowg.svg"
+      },
+      {
+        "title": "Settings",
+        "navLink": "/admin/settings",
+        "icon": "/assets/icons/right-arrow.svg",
+        "mIcon": "/assets/icons/right-arrowg.svg"
+      }
+    ]
+  },
+  {
+    "mainTitle": "Account Manager",
+    "pageUrl": "/admin/account/sample1",
+    "icon": "/assets/icons/right-arrow.svg",
+    "cIcon": "/assets/icons/angle-arrow-down.svg",
+    "mIcon": "/assets/icons/gmanage.svg",
+    "menus": [
+      {
+        "title": "Sample",
+        "navLink": "/admin/account/sample1",
+        "icon": "/assets/icons/right-arrow.svg",
+        "mIcon": "/assets/icons/right-arrowg.svg"
+      }
+    ]
+  },
+  {
+    "mainTitle": "Operational",
+     "pageUrl": "admin/operational/sample1",
+     "icon": "/assets/icons/right-arrow.svg",
+     "cIcon": "/assets/icons/angle-arrow-down.svg",
+     "mIcon": "/assets/icons/gschedule.svg",
+      "menus": [
+      {
+        "title": "Sample",
+        "navLink": "/admin/operational/sample1",
+        "icon": "/assets/icons/right-arrow.svg",
+        "mIcon": "/assets/icons/right-arrowg.svg"
+      },
+      {
+        "title": "Sample1",
+        "navLink": "/admin/operational/sample2",
+        "icon": "/assets/icons/right-arrow.svg",
+        "mIcon": "/assets/icons/right-arrowg.svg"
+      }
+    ]
+  },
+  {
+    "mainTitle": "Customer Service",
+     "pageUrl": "admin/customer-service/sample1",
+     "icon": "/assets/icons/right-arrow.svg",
+     "cIcon": "/assets/icons/angle-arrow-down.svg",
+     "mIcon": "/assets/icons/guser.svg",
+      "menus": [
+      {
+        "title": "Sample",
+        "navLink": "/admin/customer-service/sample1",
+        "icon": "/assets/icons/right-arrow.svg",
+        "mIcon": "/assets/icons/right-arrowg.svg"
+      },
+      {
+        "title": "Sample1",
+        "navLink": "/admin/customer-service/sample2",
+        "icon": "/assets/icons/right-arrow.svg",
+        "mIcon": "/assets/icons/right-arrowg.svg"
+      }
+    ]
+  }
+]

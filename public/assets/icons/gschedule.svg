@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="baseline-assignment-24px" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#009b00}
+        </style>
+    </defs>
+    <path id="Path_154" d="M0 0h30v30H0z" class="cls-1" data-name="Path 154"/>
+    <path id="Path_155" d="M23 3.5h-5.225a3.735 3.735 0 0 0-7.05 0H5.5A2.507 2.507 0 0 0 3 6v17.5A2.507 2.507 0 0 0 5.5 26H23a2.507 2.507 0 0 0 2.5-2.5V6A2.507 2.507 0 0 0 23 3.5zm-8.75 0A1.25 1.25 0 1 1 13 4.75a1.254 1.254 0 0 1 1.25-1.25zm2.5 17.5H8v-2.5h8.75zm3.75-5H8v-2.5h12.5zm0-5H8V8.5h12.5z" class="cls-2" data-name="Path 155" transform="translate(.75 .25)"/>
+</svg>

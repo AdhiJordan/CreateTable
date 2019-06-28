@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="228" height="79" viewBox="0 0 228 79">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3,.cls-4{fill:#009b00;font-size:35px;font-family:SegoeUI,Segoe UI}.cls-4{fill:#b0c512;font-size:22px}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h228v79H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="Section_Titles" class="cls-2" data-name="Section Titles">
+        <text id="Administration" class="cls-3" transform="translate(0 38)">
+            <tspan x="0" y="0">Administration</tspan>
+        </text>
+        <text id="Manage_Webcasts" class="cls-4" data-name="Manage Webcasts" transform="translate(0 73)">
+            <tspan x="0" y="0">Manage Webcasts</tspan>
+        </text>
+    </g>
+</svg>

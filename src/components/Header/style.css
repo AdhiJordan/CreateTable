@@ -1,0 +1,11 @@
+.top-header {
+    background: #ffffff;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0,0,0,0.46);
+    -moz-box-shadow: 0 3px 3px 0 rgba(0,0,0,0.46);
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.46);
+    height: 60px;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 2em;
+    padding-right: 1em;
+    font-weight: bold;
+}

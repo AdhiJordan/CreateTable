@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+    background: #f1f1f1;
+}
+
+body {
+  position: relative;
+}
+
+#root {
+    height: 100%;
+}
+
+.home-container {
+    height: 100%;
+    background: url("./../images/background.jpg");
+}
+
+.title {
+    font-family: Raleway, sans-serif;
+}
+
+.profileAvatar{
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+.subMenuText{
+  font-size: 16px;
+  color: grey;
+      padding-left: 60px;
+    padding-bottom: 20px;
+        font-family: inherit;
+}
+.mainMenu{
+  font-size: 18px;
+  padding-bottom: 22px;
+
+    padding-left: 32px;
+}
+.iconRight{
+    cursor: pointer;
+     position: absolute;
+    right: 5px;
+    padding-top: 4px;
+}
+.mainHeading:hover, .subMenuText:hover{
+  color: #00BFFF;
+  cursor: pointer;
+}
+
+.loginform{
+    position: relative;
+    top: 50%;
+    transform: translateY(40%);
+    margin: 0px auto;
+}
+.footerCls{
+      position: fixed;
+    height: 44px;
+    left: 0px;
+        width: 100%;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12)
+}
+
+
+@media only screen and (max-width: 576px) {
+  .loginform{
+    transform: translateY(20%);
+  }
+}
+
+
+
